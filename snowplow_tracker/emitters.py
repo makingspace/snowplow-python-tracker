@@ -31,7 +31,6 @@ except ImportError:
     from queue import Queue
 
 from celery import Celery
-from celery.contrib.methods import task
 import redis
 import requests
 from contracts import contract, new_contract
